@@ -1,0 +1,16 @@
+//
+   Created by oscar on 9/06/16.
+extends layout
+
+head
+    title=title
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+
+block content
+    h1 Ataque Bot
+    p #{subtitle}
+    button.btn.btn-info.btn-block(type=submit) MyButton
+
+block scripts
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js')
