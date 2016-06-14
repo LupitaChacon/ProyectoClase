@@ -11,4 +11,14 @@ router.get('/oscar', function(req, res, next) {
     res.render('oscar',{title: 'ola k ase',subtitle: 'programando o k ase'});
 });
 
+router.get('/layout',function (req,res,next) {
+    res.render('oscar/layout');
+})
+
+router.get('/perfil',function (req,res,next) {
+    res.render('oscar/Perfil');
+})
+
+
+
 module.exports = router;
