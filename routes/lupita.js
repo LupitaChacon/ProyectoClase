@@ -18,4 +18,11 @@ router.get('/myView', function(req, res, next) {
     res.render('myView',objeto);
 });
 
+router.get('/layout', function(req, res, next) {
+    res.render('viewsLupita/layout');
+});
+
+router.get('/miPerfil', function(req, res, next) {
+    res.render('viewsLupita/miPerfil');
+});
 module.exports = router;
