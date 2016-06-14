@@ -3,7 +3,7 @@
  */
 var express = require('express');
 var router = express.Router();
-var objeto = {nombre:'lupita', apellido:'chacon'};
+var objeto = {'nombre':'lupita', 'apellido':'chacon'};
 
 /* GET home page. */
 router.get('/chacon', function(req, res, next) {
